@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="js/search.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebFlics</title>
+</head>
+
+<body>
+
+    <!-- navbar -->
+
+    <header>
+        <nav class="navbar">
+            <ul>
+                <strong>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Download</a></lI>
+                    <div class="search">
+                    <input type="search" value="" id="search" onchange="openPage()" placeholder="Search...">
+                    </div>
+                </strong>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- grid -->
+
+    <!-- FIRST SLIDER -->
+
+    <div class="container">
+        <div>
+            <a href="top.html">
+                <span id="trending">Trending Now</span>
+        </div>
+        </a>
+        <div class="row">
+            <div class="col-md-12 heroSlider-fixed">
+                <div class="overlay">
+                </div>
+
+                <div>
+                    <img src="./images/Beyblade Burst turbo.webp" alt="" />
+                </div>
+                <div>
+                    <img src="./Images/Fruits Basket.webp" alt="" />
+                </div>
+                <div>
+                    <a href="/Anime-htmls/Haikyuu.html">
+                        <img id="haikyu" src="./Images/Haikyu.png" alt="" />
+                    </a>
+                </div>
+                <div>
+                    <img src="./images/Hunter X Hunter.webp" alt="" />
+                </div>
+                <div>
+                    <img src="./Images/Demon Slayer.jpg" alt="" />
+                </div>
+
+                <!-- SECOND SLIDER -->
+
+                <div>
+                    <a href="Latest.html">
+                        <span id="most-popular">Most Popular</span>
+                    </a>
+                </div>
+
+                <div>
+                    <div>
+                        <img class="Most-images" src="./Images/Jujutsu Kaisen.webp" alt="" />
+                    </div>
+                    <a href="https://dood.so/f/m4dg39kthz">
+                        <img class="Most-images" src="./Images/Death Note.webp" alt="" />
+                    </a>
+                </div>
+                <div>
+                    <a href="https://dood.so/f/3j33t6e13n">
+                        <img class="Most-images" src="./Images/Naruto.webp" alt="" />
+                    </a>
+                </div>
+                <div>
+                    <img class="Most-images" src="./images/My Hero Academia.webp" alt="" />
+                </div>
+                <div>
+                    <img class="Most-images" src="./Images/Demon Slayer.jpg" alt="" />
+                </div>
+
+                <!-- THIRD SLIDER -->
+
+                <div>
+                    <a href="Latest.html">
+                        <span id="marvel">Marvel</span>
+                    </a>
+                </div>
+
+                <div>
+                    <div>
+                        <img class="Most-images" src="./Images/Spider-man Homecoming.jpg" alt="" />
+                    </div>
+                    <a href="#">
+                        <img class="Most-images" src="./Images/Spider-man into the spider verse.png" alt="" />
+                    </a>
+                </div>
+                <div>
+                    <a href="https://dood.so/e/te8zjs0vmvhwm9ydoci6xjhze32n3gyf">
+                        <img class="Most-images" src="./1360x768/Spider-man No Way Home.jpg" alt="" />
+                    </a>
+                </div>
+                <div>
+                    <a href="https://dood.so/e/8k3u91n5iwu6i0zs0gzgoifmftgos65i">
+                        <img class="Most-images" src="./Images/Black Widow.png" alt="">
+                    </a>
+                </div>
+                <div>
+                    <a href="https://dood.so/f/3mxjzj2sxz">
+                        <img class="Most-images" src="./Images/What If.jpg" alt="" />
+                    </a>
+                </div>
+                <!-- SCRIPT -->
+                <script>
+                    function openPage() {
+                        var x = document.getElementById("search").value;
+
+                        // HAIKYUU
+
+                        if (x === "haikyu") {
+                            window.open("/Anime-htmls/Haikyuu.html");
+                        }
+
+                        if (x === "Haikyu") {
+                            window.open("/Anime-htmls/Haikyuu.html");
+                        }
+                        if (x === "HAIKYU") {
+                            window.open("/Anime-htmls/Haikyuu.html");
+                        }
+
+                        // NARUTO
+
+                        if (x === "Naruto") {
+                            window.open("/Anime-htmls/naruto.html");
+                        }
+
+                        if (x === "naruto") {
+                            window.open("/Anime-htmls/naruto.html");
+                        }
+                        if (x === "NARUTO") {
+                            window.open("/Anime-htmls/naruto.html");
+                        }
+
+                        // DEATNOTE
+
+                        if (x === "death note") {
+                            window.open("/Anime-htmls/death-note.html")
+                        }
+                        if(x === "Death Note"){
+                            window.open("/Anime-htmls/death-note.html")
+                        }
+                        if(x === "DEATH NOTE"){
+                            window.open("/Anime-htmls/death-note.html")
+                        }
+                        if(x === "Deathnote"){
+                            window.open("/Anime-htmls/death-note.html")
+                        }
+                        if(x === "deathnote"){
+                            window.open("/Anime-htmls/death-note.html")
+                        }
+
+                        //MY HERO ACADEMIA
+
+                        if(x === "mha"){
+                            window.open("/Anime-htmls/my-hero-academia.html")
+                        }
+                        if(x === "MHA"){
+                            window.open("/Anime-htmls/my-hero-academia.html")
+                        }
+                        if(x === "MY HERO ACADEMIA"){
+                            window.open("/Anime-htmls/my-hero-academia.html")
+                        }
+                        if(x === "My Hero Academia"){
+                            window.open("/Anime-htmls/my-hero-academia.html")
+                        }
+                        if(x === "my hero academia"){
+                            window.open("/Anime-htmls/my-hero-academia.html")
+                        }
+                        
+                        //DEMON SALYER
+                        if(x === "Demon Slayer"){
+                            window.open("/Anime-htmls/demon-slayer.html")
+                        }
+                        if(x === "DEMON SLAYER"){
+                            window.open("/Anime-htmls/demon-slayer.html")
+                        }
+                        if(x === "demon slayer"){
+                            window.open("/Anime-htmls/demon-slayer.html")
+                        }
+                        if(x === "Demon slayer"){
+                            window.open("/Anime-htmls/demon-slayer.html")
+                        }
+
+                        // Hunter x Hunter
+                        // Hunter x Hunter
+                        if(x === "Hunter x Hunter"){
+                            window.open("/Anime-htmls/hunterxhunter.html")
+                        }
+                        if(x === "hunter x hunter"){
+                            window.open("/Anime-htmls/hunterxhunter.html")
+                        }
+                        if(x === "HUNTER x HUNTER"){
+                            window.open("/Anime-htmls/hunterxhunter.html")
+                        }
+                        if(x === "Hunter x hunter"){
+                            window.open("/Anime-htmls/hunterxhunter.html")
+                        }
+                        if(x === "Hunter X Hunter"){
+                            window.open("/Anime-htmls/hunterxhunter.html")
+                        }
+                        if(x === "hunter X hunter"){
+                            window.open("/Anime-htmls/hunterxhunter.html")
+                        }
+                        if(x === "HUNTER X HUNTER"){
+                            window.open("/Anime-htmls/hunterxhunter.html")
+                        }
+                        if(x === "Hunter X hunter"){
+                            window.open("/Anime-htmls/hunterxhunter.html")
+                        }
+
+                        // jujutsu kaisen
+                        if(x === "jujutsu kaisen"){
+                            window.open("/Anime-htmls/jujutsu-kaisen.html")
+                        }
+                        if(x === "Jujutsu kaisen"){
+                            window.open("/Anime-htmls/jujutsu-kaisen.html")
+                        }
+                        if(x === "JUJUTSU KAISEN"){
+                            window.open("/Anime-htmls/jujutsu-kaisen.html")
+                        }
+                        if(x === "Jujutsu Kaisen"){
+                            window.open("/Anime-htmls/jujutsu-kaisen.html")
+                        }
+
+
+                        // last bracket
+                    }
+                    
+
+                </script>
+</body>
+
+</html>

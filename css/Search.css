@@ -1,0 +1,20 @@
+
+	b{
+		visibility: hidden;
+	}
+	
+    .card{
+		transition: 0.3s;
+	}
+
+	.card:hover{
+		cursor: pointer;
+	}
+	
+    .container{
+		padding: 0px 0px;
+	}
+    
+    body{
+	font-family: Gotham;
+}

@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html {box-sizing: border-box;
+    background: #181818;       
+}
+
+* {
+    outline: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    float: left;
+    width: 20%;
+    height: auto;
+	padding: 5px;
+}
+
+span {
+    color:rgba(255, 255, 255, 0.904);
+    font-size: 19px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    transition: 1000ms;
+    transition-delay: 100ms;
+}
+
+span:hover{
+    color:rgba(4, 96, 216, 0.89);
+    cursor: pointer;
+    letter-spacing:1px;
+}
+
+
+#popular{
+    /* float:left; */
+    color:rgba(255, 255, 255, 0.904);
+    font-size: 19px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    transition: 1000ms;
+    transition-delay: 100ms;
+}
+
+#popular:hover{
+    color:rgba(4, 96, 216, 0.89);
+    cursor: pointer;
+    letter-spacing:1px;
+}
+.header{
+    height: 30px;
+    width: 1368px;
+}
+
+a{
+    font-family: 'poppins';
+    color: #fff;
+    text-decoration: none;
+}
+
+nav {
+    position: sticky;
+    background-color: rgba(0, 0, 0, 0.479);
+}
+
+.navbar ul {
+    margin-top: 2px;
+    overflow: auto;
+    list-style: none;
+}
+
+.navbar li {
+    height: 25px;
+    justify-content: space-between;
+    float: left;
+    font-weight: normal;
+    font-family: 'poppins';
+    font-size: 13px;    
+    margin-top :0px;
+}
+
+.navbar li a {
+    padding: 0px 1px 0px 9px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.726);
+}
+.navbar li a:hover{
+    color: #fff;
+    transition: 500ms;
+    cursor: pointer;
+}
+
+.search{
+    margin-top:2px;
+    float: right;
+    color: rgb(0, 0, 0);
+    padding: 0px 30px;
+    outline: none;
+}
+
+.navbar input{
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 2px 10px;
+}
+
+.navbar input:active{
+    outline-style: none;
+    border: 2px solid black;
+    padding: 2px 10px;
+}
+
+.Top-Anime{
+    margin-top: -40px;
+}
+.Top-Anime:hover{
+    color:crimson;
+}
+
+#trending,#most-popular,#marvel{
+    margin:10px;
+}
+
+/* media */
+
+
+@media (max-width:450px){
+    .navbar li{
+        margin-top: 8px;
+        font-size: 8px;
+    }
+    #search{
+        width: 130px;
+    }
+}
+
+@media (max-width:375px){
+    .navbar li{
+        margin-top: 8px;
+        font-size: 6.7px;
+    }
+    #search{
+        width: 130px;
+    }
+}
+
+@media(max-width:768px){
+    #trending{
+        font-size:70% ;
+    }
+    #most-popular{
+        font-size:70%;
+    }
+    #marvel{
+        font-size:70%;
+    }
+}
+

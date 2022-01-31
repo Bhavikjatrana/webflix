@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body,
+    html {
+      background: #181818;
+      height: 100%;
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    .bg-image {
+      background-attachment: fixed;
+
+      /* The image used */
+      background-image: url("../1360x768/haikyu.jpg");
+
+      /* Add the blur effect */
+      filter: blur(4px);
+      -webkit-filter: blur(5px);
+
+      /* Full height */
+      height: 100%;
+
+      /* Center and scale the image nicely */
+      /* background-position:center; */
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    /* Position text in the middle of the page/image */
+    .bg-text {
+      background-color: rgb(0, 0, 0);
+      /* Fallback color */
+      background-color: rgb(0, 0, 0, 0.6);
+      /* Fallback color */
+      color: rgb(253, 179, 67);
+      border: 1px solid #f1f1f1;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 1;
+      width: 50%;
+      padding: 20px;
+    }
+
+    @media(max-width:1254px) {
+      img {
+        width: 90%;
+      }
+    }
+
+
+    /* dmskdhgj */
+
+
+    a {
+      text-decoration: none;
+    }
+
+    nav {
+      margin-left: 10px;
+      font-family: monospace;
+    }
+
+    ul {
+      background: #181818;
+      list-style: none;
+      margin: 0;
+      padding-left: 0;
+    }
+
+    li {
+      color: #fff;
+      display: block;
+      float: left;
+      padding: 1.2em;
+      position: relative;
+      text-decoration: none;
+      transition-duration: 0.5s;
+    }
+
+    li a {
+      font-size: 18px;
+      color: #fff;
+    }
+
+    li:hover {
+      background: red;
+      cursor: pointer;
+    }
+
+    ul li ul {
+      visibility: hidden;
+      opacity: 0;
+      min-width: 5rem;
+      position: absolute;
+      transition: all 0.5s ease;
+      margin-top: 1rem;
+      left: 0;
+      display: none;
+    }
+
+    ul li:hover>ul,
+    ul li ul:hover {
+      visibility: visible;
+      opacity: 1;
+      display: block;
+    }
+
+    ul li ul li {
+      clear: both;
+      width: 100%;
+    }
+
+    #about{
+      font-weight: 600;
+      color: #a3a3a3;
+    }
+
+    p{
+      color:white;
+      font-weight: 700;
+      margin-left:10px;
+    }
+
+    #heading{
+      font-size:20px;
+      margin-left: 10px;
+      color:white
+    }
+
+    /* Images */
+
+    @font-face {font-family: myFirstFont; src: url(/dimitri-inverse.ttf);}
+    
+    body{
+        background: #181818;
+    }
+    .container{
+        max-width:1360px;
+        margin: auto;
+        overflow: auto;
+    }
+    
+    .gallery{
+        margin: 5px;
+        margin-left: 40px !important;
+        float: left;
+        width: 390px;
+    }
+    .gallery img{
+        border-radius: 7px;
+        width:100%;
+        height: auto;
+    }
+    .desc{
+        font-size: 16px;
+        font-family: myFirstFont;
+        margin-bottom: 10px;
+        color: rgb(255, 145, 0);
+        padding:4.9px;
+        text-align: center;
+    }
+
+</style>
+</head>
+
+<body>
+
+  <div class="bg-image"></div>
+
+  <div class="bg-text">
+    <h2><img src="../Logo/Haikyu.webp" alt=""></h2>
+    <h1 style="font-size: 15px;">Inspired by a championship match he sees on TV, junior high schooler Hinata joins a
+      volleyball club and begins training, despite his short height.</h1>
+    <p style="font-size: 15px;">Starring:Ayumu Murase,Kaito Ishikawa,Satoshi Hino</p>
+  </div>
+
+
+  <!-- episodes -->
+  <br>
+  <div id="heading">Episodes | Haikyu</div>
+
+  <br>
+
+
+  <!-- season selector -->
+
+
+  <nav role="navigation">
+    <ul>
+      <li><a>Season  ↓</a>
+        <ul class="dropdown">
+          <li><a href="#S-1">Season 1</a></li>
+          <li><a href="#S-2">Season 2</a></li>
+          <li><a href="S-3">Season 3</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+<br><br><br>
+
+<!-- about -->
+
+<p>Release year: 2015</p>
+<p id="about">Hinata, Kageyama and the rest of Team Karasuno head to Nekoma's special training camp in Tokyo to prepare for the Spring High Tournament.</p>
+
+       <!-- images -->
+
+       <div class="container">
+        <div class="gallery">
+          <a href="https://dood.so/e/4g6vatse8dakqa24a1xfec0m7ixhv043">
+            <img src="/Haikyu/S-1/ep-1.jpg">
+            <div class="desc">Episode 1 - The End and The Beginning</div>
+          </a>
+        </div>
+
+        <div class="gallery">
+          <a href="https://dood.so/e/djv4lnd7jflk0nuiqzqegoz6n14igptb">
+            <img src="/Haikyu/S-1/ep-2.png">
+            <div class="desc">Episode 2 - Karasuno High School Volleyball Team</div>
+          </a>
+        </div>
+
+        <div class="gallery">
+          <a href="https://dood.so/e/155bzvjpe30xkfvbl6gmsgfa6h94tf17"></a>
+            <img src="/Haikyu/S-1/ep-3.jpg">
+            <div class="desc">Episode 3 - A Formidable Ally</div>
+        </div>
+
+        <div class="gallery">
+            <img src="/Haikyu/S-1/ep-4.jpg">
+            <div class="desc">Episode 4 - The View From the Summit</div>
+        </div>
+
+        <div class="gallery">
+            <img src="/Haikyu/S-1/ep-5.jpg">
+            <div class="desc">Episode 5 - A Coward's Anxiety</div>
+        </div>
+
+        <div class="gallery">
+            <img src="/Haikyu/S-1/ep-6.jpg">
+            <div class="desc">Episode 6 - An Interesting Team</div>
+        </div>
+
+        <div class="gallery">
+            <img src="/Haikyu/S-1/ep-7.jpg">
+            <div class="desc">Episode 7 - Versus the Great King</div>
+        </div>
+
+        <div class="gallery">
+            <img src="/Haikyu/S-1/ep-8.jpg">
+            <div class="desc">Episode 8 - The One They Call "Ace"</div>
+        </div>
+
+        <div class="gallery">
+              <img src="/Haikyu/S-1/ep-9.jpg">
+              <div class="desc">Episode 9 - A Set For the Ace</div>
+          </div>
+
+          <div class="gallery">
+            <img src="/Haikyu/S-1/ep-10.jpg">
+            <div class="desc">Episode 10 - Yearning</div>
+        </div>
+
+        <div class="gallery">
+              <img src="/Haikyu/S-1/ep-11.jpg">
+              <div class="desc">Episode 11 - The Decision</div>
+          </div>
+
+          <div class="gallery">
+            <img src="/Haikyu/S-1/ep-12.jpg">
+            <div class="desc">Episode 12 - The Cat and Crow Reunion</div>
+        </div>
+
+        <div class="gallery">
+              <img src="/Haikyu/S-1/ep-13.jpg">
+              <div class="desc">Episode 13 - Worthy Adversaries</div>
+          </div>
+
+        <div class="gallery">
+              <img src="/Haikyu/S-1/ep-14.jpg">
+              <div class="desc">Episode 14 - Formidable Opponents</div>
+          </div>
+
+        <div class="gallery">
+              <img src="/Haikyu/S-1/ep-15.jpg">
+              <div class="desc">Episode 15 - Revival</div>
+          </div>
+
+        <div class="gallery">
+              <img src="/Haikyu/S-1/ep-16.jpg">
+              <div class="desc">Episode 16 - Winners and Losers</div>
+          </div>
+
+        <div class="gallery">
+              <img src="/Haikyu/S-1/ep-17.jpg">
+              <div class="desc">Episode 17 - The Iron Wall</div>
+          </div>
+
+        <div class="gallery">
+              <img src="/Haikyu/S-1/ep-18.jpg">
+              <div class="desc">Episode 18 - Guarding Your Back</div>
+          </div>
+
+        <div class="gallery">
+              <img src="/Haikyu/S-1/ep-19.jpg">
+              <div class="desc">Episode 19 - The Conductor</div>
+          </div>
+
+        <div class="gallery">
+              <img src="/Haikyu/S-1/ep-20.jpg">
+              <div class="desc">Episode 20 - Oikawa Toru Is Not a Genius</div>
+          </div>
+
+        <div class="gallery">
+              <img src="/Haikyu/S-1/ep-21.jpg">
+              <div class="desc">Episode 21 - Senpai's True Abilities</div>
+          </div>
+
+        <div class="gallery">
+              <img src="/Haikyu/S-1/ep-22.jpg">
+              <div class="desc">Episode 22 - Evolution</div>
+          </div>
+
+        <div class="gallery">
+              <img src="/Haikyu/S-1/ep-23.jpg">
+              <div class="desc">Episode 23 - The Play to Shift the Momentum</div>
+          </div>
+
+        <div class="gallery">
+              <img src="/Haikyu/S-1/ep-24.jpg">
+              <div class="desc">Episode 24 - 'Lonely King' No More</div>
+          </div>
+
+        <div class="gallery">
+              <img src="/Haikyu/S-1/ep-25.jpg">
+              <div class="desc">Episode 25 - The Third Day</div>
+          </div>
+
+
+
+
+
+
+
+
+
+      </body>
+
+</html>
